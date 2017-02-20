@@ -3,7 +3,7 @@
     RootModule = 'AppxGet.psm1'
 
     # Version number of this module.
-    ModuleVersion = '0.1.0'
+    ModuleVersion = '0.1.0.1'
 
     # ID used to uniquely identify this module.
     GUID = 'ebe9a855-3bb5-4b68-a660-ddae875874f0'
@@ -15,10 +15,10 @@
     CompanyName = 'TCP'
 
     # Copyright statement for this module.
-    Copyright = '(c) 2017 Cristi. All rights reserved.'
+    Copyright = ''
 
     # Description of the functionality provided by this module.
-    Description = 'Powershell Package Management (OneGet) Provider for AppX packages.'
+    Description = 'Powershell Package Management (aka OneGet) Provider for AppX packages.'
 
     # Minimum version of the Windows PowerShell engine required by this module.
     PowerShellVersion = '3.0'
@@ -51,7 +51,7 @@
 
         PSData = @{
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags = @("PackageManagement", "Provider")
+            Tags = @("PackageManagement", "Provider", "AppX", "WindowsStore", "Windows")
 
             # A URL to the license for this module.
             LicenseUri = 'https://raw.githubusercontent.com/tomachristian/AppxGet/master/LICENSE'
